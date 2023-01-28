@@ -20,7 +20,7 @@ export default function BigNav() {
   });
     return(
      
-   <div style={{textAlign: 'center'}}>
+   <div style={{textAlign: 'center'}} className="inline-block">
 
     <Button  style={{width: '125px', height: '35px'}}  appearance="transparent" icon={<Home24Regular /> }>
         <p >Index</p>
