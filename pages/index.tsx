@@ -12,12 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-<div className="justify-center align-center">
-<div>
-  <Navbar></Navbar>
-</div>
-</div>
- 
+
+
+         <div className="transition flex justify-center duration-700 text-center">
+         <Navbar></Navbar>
+         </div>
+      
+
 
  
 

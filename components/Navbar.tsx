@@ -1,3 +1,4 @@
+
 import React,{useState,useEffect} from "react";
 import BigNavbar from "./BigNav"
 import { Button, Menu, MenuList, MenuTrigger } from "@fluentui/react-components";
@@ -18,21 +19,22 @@ export default function Navbar() {
 
 
     return(
-      <Menu open={open}>
+      <div className="flex flex-col text-center">
+        <Menu open={open}>
     
     <MenuTrigger disableButtonEnhancement>
     <Button  onClick={function(){showBar()}} ><ChevronDown28Filled className={`${rotate} transition duration-700 `} /></Button>
     </MenuTrigger>
     
-    <MenuList className="mt-8 relative transition duration-700" style={{border: 'none'}}>
+    <MenuList className="mt-2 relative transition duration-700" style={{border: 'none'}}>
         <BigNavbar  />
     </MenuList>
   
        
   </Menu>
+      </div>
 
         
         
     )
 }
-
