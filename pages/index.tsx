@@ -12,8 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-<div className="flex justify-center align-center">
-<Navbar></Navbar>
+<div className="justify-center align-center">
+<div>
+  <Navbar></Navbar>
+</div>
 </div>
  
 
